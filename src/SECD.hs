@@ -1,7 +1,6 @@
-module SECD (
-    runLisp, 
-    runLispFile
-  ) where
+{-# LANGUAGE Strict, StrictData #-}
+
+module SECD (runLisp, runLispFile) where
 
 import SECD.Internal
 import SECD.Parser

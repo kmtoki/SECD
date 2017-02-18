@@ -1,4 +1,6 @@
-module SECD.Compiler where
+{-# LANGUAGE Strict, StrictData #-}
+
+module SECD.Compiler (compile) where
 
 import SECD.Internal
 import Prelude hiding (EQ)

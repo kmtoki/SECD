@@ -1,7 +1,6 @@
+{-# LANGUAGE Strict, StrictData #-}
 
-module SECD.Parser (
-  parse
-  ) where
+module SECD.Parser (parse) where
 
 import SECD.Internal
 

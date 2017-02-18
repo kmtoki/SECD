@@ -1,3 +1,5 @@
+{-# LANGUAGE Strict, StrictData #-}
+
 module SECD.Internal where
 
 import Prelude hiding (EQ)

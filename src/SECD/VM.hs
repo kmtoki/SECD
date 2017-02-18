@@ -1,8 +1,7 @@
+{-# LANGUAGE Strict, StrictData #-}
 {-# LANGUAGE RecordWildCards #-}
-module SECD.VM (
-    initVM,
-    runVM,
-  ) where
+
+module SECD.VM (initVM,runVM) where
 
 import SECD.Internal
 
